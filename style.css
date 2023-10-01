@@ -1,0 +1,82 @@
+* {
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 95%);
+    margin: 0px;
+    padding: 0px; 
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* height: 100vh; */
+}
+
+
+.container {
+    width: 700px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    display: grid;
+    padding: 30px;
+}
+
+svg {
+    scale: 100%;
+    /* display: flex; */
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2rem;
+    justify-content: center;
+    /* padding-top: 1.5rem; */
+}
+
+p {
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 100vh;
+    border: none;
+    width: 60%;
+    height: 2.5rem;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.container .card:nth-child(1) {
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.container .card:nth-child(2){
+    background-color: hsl(184, 100%, 22%);
+}
+.container .card:nth-child(3) {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.container .card:nth-child(1) button{
+    color: hsl(31, 77%, 52%);
+}
+.container .card:nth-child(2) button{
+    color: hsl(184, 100%, 22%);
+}
+.container .card:nth-child(3) button{
+    color: hsl(179, 100%, 13%);
+}
